@@ -6,7 +6,7 @@ Creare una property e valorizzarla a seconda del valore di un dato sul registro
 
 **Leggo il valore dai registri**
     
-    ```
+    ``
         <Property Id="MY_REG_VALUE">
             <RegistrySearch Id="GPECAppPath"
                     Root="HKLM"
@@ -14,7 +14,7 @@ Creare una property e valorizzarla a seconda del valore di un dato sul registro
                     Name="<key name>"
                     Type="raw" />
         </Property>
-    ```
+    ``
 
 **Definisco la property con un valore di default (ad esempio se non trovo la chiave nei registri)**
     
