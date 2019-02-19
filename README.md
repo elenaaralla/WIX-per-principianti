@@ -18,14 +18,14 @@ Creare una property e valorizzarla a seconda del valore di un dato sul registro
 
 --Definisco la property con un valore di default (ad esempio se non trovo la chiave nei registri)--
     
-    ```
+    `
     <Property Id="MY_PROPERTY" Value="DEF_VAL" />
     
     Setto un nuovo valore della property nel caso in cui la chiave dei registri (MY_REG_VALUE) esista
     <SetProperty Id="MY_PROPERTY" After="AppSearch" Value="VAL" Sequence="first" >
       <![CDATA[MY_REG_VALUE]]>
     </SetProperty>
-    ```
+    `
 
 --Traduzione--
 
@@ -34,7 +34,7 @@ Creare una property e valorizzarla a seconda del valore di un dato sul registro
 --Riferimenti--
  
 [per definire correttamente una property](http://codebuckets.com/2016/07/23/conditional-deployment-with-wix/)
-[per cambiare il valore in funzione di una chiave di registro](https://stackoverflow.com/questions/26753632/wix-how-do-i-set-property-conditionally9    
+[per cambiare il valore in funzione di una chiave di registro](https://stackoverflow.com/questions/26753632/wix-how-do-i-set-property-conditionally)    
 
 
 
