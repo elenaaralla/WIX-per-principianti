@@ -36,7 +36,8 @@ Creare una property e valorizzarla a seconda del valore di un dato sul registro
 
 > cerco una chiave nei registri; definisco il valore della mia property e se trovo la chiave nei registri, setto il nuovo 
 > valore, altrimenti la property rimane al valore di default! Se la chiave nei registri non c'è, MY_REG_VALUE non esiste e 
-> quindi, dato che il SetProperty è condizionato all'esistenza di MY_REG_VALUE (<![CDATA[MY_REG_VALUE]]>), MY_PROPERTY rimane > al valore di default.
+> quindi, dato che il SetProperty è condizionato all'esistenza di MY_REG_VALUE (<<![CDATA[MY_REG_VALUE]]>>), MY_PROPERTY
+> rimane al valore di default.
 
 **Riferimenti**
 
