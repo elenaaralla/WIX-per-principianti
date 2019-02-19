@@ -18,19 +18,19 @@ Creare una property e valorizzarla a seconda del valore di un dato sul registro
 
 **Definisco la property con un valore di default (ad esempio se non trovo la chiave nei registri)**
     
-    ```
+
 
         <Property Id="MY_PROPERTY" Value="DEF_VAL" />
-    ``` 
+
 
 **Setto un nuovo valore della property nel caso in cui la chiave dei registri (MY_REG_VALUE) esista**
     
-    ```
+
 
         <SetProperty Id="MY_PROPERTY" After="AppSearch" Value="VAL" Sequence="first" >
           <![CDATA[MY_REG_VALUE]]>
         </SetProperty>
-    ```
+
 
 **Traduzione**
 
