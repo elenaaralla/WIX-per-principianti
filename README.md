@@ -46,6 +46,13 @@ Creare una property e valorizzarla a seconda del valore di un dato sul registro
 
 
 
+# Shortcut
+
+**Riferimenti**
+
+- [per creare una shortcut dall'editor](https://stackoverflow.com/questions/3303962/visual-studio-deployment-project-create-shortcut-to-deployed-executable)
+
+
 
 
 
