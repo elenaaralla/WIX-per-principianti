@@ -53,6 +53,8 @@ Creare una property e valorizzarla a seconda del valore di un dato sul registro
 - [per creare una shortcut dall'editor](https://stackoverflow.com/questions/3303962/visual-studio-deployment-project-create-shortcut-to-deployed-executable)
 
 
+# Operating System Property Values
 
+**Riferimenti**
 
-
+- [per verificare la versione di Windows](https://docs.microsoft.com/it-it/windows/desktop/Msi/operating-system-property-values)
