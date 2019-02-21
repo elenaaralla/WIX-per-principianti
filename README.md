@@ -3,10 +3,11 @@
 Le prime cose da fare sul file product.wxs sono:
 
 -  modificare il tag MediaTemplate in modo che effettui l'embed cab (altrimenti il setup crea una file separato) 
+        
         <MediaTemplate EmbedCab=”yes”/>
 - indicare un **Name** al progetto e inserire il **Manufacturer** per evitare errori di compilazione
 
-        <Product Id="*" **Name="MYPROJECTNAME"** Language="1033" Version="1.0.0.0" Manufacturer="" UpgradeCode="7555ea4a-10c8-46a0-b626-cc2f5a2755b4">
+        <Product Id="*" Name="MYPROJECTNAME" Language="1033" Version="1.0.0.0" Manufacturer="" UpgradeCode="7555ea4a-10c8-46a0-b626-cc2f5a2755b4">
 
 # Property SET
 
